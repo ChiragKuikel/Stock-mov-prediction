@@ -6,7 +6,7 @@ It combines Zero-Shot Classification, FinBERT embeddings, SMOTE balancing, and X
 
 A complete Python pipeline allows users to input any stock name and headline to receive a prediction.
 
-### 🔄 Project Pipeline
+###  Project Pipeline
 ![Pipeline Overview](Images/Flowchart.png)
 
 ## Dataset
