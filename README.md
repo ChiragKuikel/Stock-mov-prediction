@@ -7,7 +7,7 @@ It combines Zero-Shot Classification, FinBERT embeddings, SMOTE balancing, and X
 A complete Python pipeline allows users to input any stock name and headline to receive a prediction.
 
 ### 🔄 Project Pipeline
-![Pipeline Overview](images/Flowchart.png)
+![Pipeline Overview](Images/Flowchart.png)
 
 ## Dataset
 
@@ -29,7 +29,7 @@ Analyzed dataset structure, missing values, and label distribution.
 
 Found significant class imbalance — Label 0 (negative) dominated, while Label 2 (positive) was underrepresented.
 
-![Dataset Label imbalance](images/Labeldistribution_plot.png)
+![Dataset Label imbalance](Images/Labeldistribution_plot.png)
 
 Visualized imbalance using a bar plot.
 
@@ -74,7 +74,7 @@ Classification Report
 Result:
 XGBoost with SMOTE achieved the best overall performance and was selected as the final model. Even though XGboost without SMOTE acheived better accuracy it was at the cost of reduced recall for minority labels like 1 and 2. Thus compromising small precision we choose the model that provides better performance in minority samples. However due to the existing imbalance in dataset, the machine might struglle or even fail to accurately predict minority sample speicially label 2.
 
-![Classificationreport](images/Modelevaluation.png)
+![Classificationreport](Images/Modelevaluation.png)
 
 ### 7. Deployment Pipeline
 
@@ -119,8 +119,8 @@ Building modular ML pipelines
 Model interpretability and deployment
 
 ### Model Comparison
-![Model Comparison](images/Model_performance.png)
+![Model Comparison](Images/Model_performance.png)
 
 ### Minority performance
-![Minority_performance](images/Minority_performance.png)
+![Minority_performance](Images/Minority_performance.png)
 
